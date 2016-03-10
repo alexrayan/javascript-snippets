@@ -1,0 +1,129 @@
+[
+    {
+        "alias": "accountants", 
+        "parents": [
+            "professional"
+        ], 
+        "title": "Accountants"
+    },
+    {
+        "alias": "professional", 
+        "parents": [], 
+        "title": "Professional Services"
+    },
+    {
+        "alias": "lawyers", 
+        "parents": [
+            "professional"
+        ], 
+        "title": "Lawyers"
+    },
+    {
+        "title": "Tax Law", 
+        "parents": [
+            "lawyers"
+        ], 
+        "alias": "taxlaw"
+    },
+    {
+        "alias": "bankruptcy", 
+        "parents": [
+            "lawyers"
+        ], 
+        "title": "Bankruptcy Law"
+    },
+    {
+        "title": "Business Law", 
+        "parents": [
+            "lawyers"
+        ], 
+        "alias": "businesslawyers"
+    },
+    {
+        "alias": "contractlaw", 
+        "title": "Contract Law", 
+        "parents": [
+            "lawyers"
+        ]
+    },
+    {
+        "alias": "criminaldefense", 
+        "parents": [
+            "lawyers"
+        ], 
+        "title": "Criminal Defense Law"
+    },
+    {
+        "alias": "divorce", 
+        "parents": [
+            "lawyers"
+        ], 
+        "title": "Divorce & Family Law"
+    },
+    {
+        "alias": "estateplanning", 
+        "title": "Estate Planning Law", 
+        "parents": [
+            "lawyers"
+        ]
+    },
+    {
+        "title": "Wills, Trusts, & Probates", 
+        "parents": [
+            "estateplanning"
+        ], 
+        "alias": "willstrustsprobates"
+    },
+    {
+        "alias": "general_litigation", 
+        "parents": [
+            "lawyers"
+        ], 
+        "title": "General Litigation"
+    },
+    {
+        "alias": "immigrationlawyers", 
+        "parents": [
+            "lawyers"
+        ], 
+        "title": "Immigration Law"
+    },
+    {
+        "alias": "auto", 
+        "parents": [], 
+        "title": "Automotive"
+    },
+    {
+        "alias": "hotelstravel", 
+        "parents": [], 
+        "title": "Hotels & Travel"
+    },
+    {
+        "title": "RV Dealers", 
+        "parents": [
+            "auto"
+        ], 
+        "alias": "rv_dealers"
+    },
+    {
+        "title": "RV Repair", 
+        "parents": [
+            "auto"
+        ], 
+        "alias": "rvrepair"
+    },
+    {
+        "alias": "tours", 
+        "parents": [
+            "hotelstravel"
+        ], 
+        "title": "Tours"
+    },
+    {
+        "alias": "travelservices", 
+        "parents": [
+            "hotelstravel"
+        ], 
+        "title": "Travel Services"
+    }
+]
